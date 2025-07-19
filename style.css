@@ -1,0 +1,75 @@
+﻿body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-image: url('background.jpg');
+    background-position: top center;
+}
+
+
+#TextCounter
+{
+    text-align: center;
+    color: pink;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 9999999;
+    font: 40px 'ChunkFiveRegular';
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+
+
+#copyright
+{
+    
+    padding-top:195px;
+    
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding-left:500px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#BgContent
+{
+    height: 621px;
+    width: 908px;
+    position:relative;
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('bgcontent.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+
+#MusicPlayer
+{
+    margin-top:15px;
+    padding-left:450px;
+   
+}
+
+
+#TextContent
+{
+    height:275px;
+    width:570px;
+    margin-top:25px;
+    line-height:25px;
+    
+    z-index:9999999;
+  
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+  
+}
+
+
